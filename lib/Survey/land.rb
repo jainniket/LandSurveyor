@@ -1,9 +1,11 @@
+#/it defines land dimension and instantiates the robot
+
 class Land
 
-	def initialize(xcord, ycord)
+	def initialize(cord)
 
-		@xcord = xcord
-		@ycord = ycord
+		@xcord = coordinate[0]
+		@ycord = coordinate[1]
 
 	end
 
@@ -12,7 +14,7 @@ class Land
 	end
 
 	def create_robot(xcord, ycord, direction)
-		
+
 		robot = Robot.new(xcord, ycord, direction)
 		return [robot.xcord, robot.ycord, robot.dir]
 	end

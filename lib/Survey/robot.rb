@@ -1,16 +1,15 @@
+# It stores the current location of robot
+
 class Robot
 
 	attr_accessor :xcord, :ycord, :dir
 
-	def initialize(xcord, ycord, direction)
+	def initialize(possition)
 
-		@xcord = xcord
-		@ycord = ycord
-		@dir = direction
+		@xcord = possition[0]
+		@ycord = possition[1]
+		@dir = possition[2]
 
 	end
-
-
-
 
 end

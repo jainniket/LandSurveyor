@@ -1,2 +1,7 @@
 require 'Survey/land'
 require 'Survey/robot'
+require 'Survey/parser'
+require 'Survey/left'
+require 'Survey/right'
+require 'Survey/move'
+require 'Survey/operation'

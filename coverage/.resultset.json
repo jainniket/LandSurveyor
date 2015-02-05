@@ -3,9 +3,16 @@
     "coverage": {
       "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey.rb": [
         1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1
       ],
       "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey/land.rb": [
+        null,
+        null,
         1,
         null,
         1,
@@ -28,6 +35,8 @@
         null
       ],
       "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey/robot.rb": [
+        null,
+        null,
         1,
         null,
         1,
@@ -40,7 +49,46 @@
         null,
         null,
         null,
+        null
+      ],
+      "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey/parser.rb": [
         null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        2,
+        22,
+        2,
+        null,
+        null
+      ],
+      "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey/left.rb": [
+
+      ],
+      "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey/right.rb": [
+
+      ],
+      "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey/move.rb": [
+
+      ],
+      "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey/operation.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        21,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
         null,
         null,
         null
@@ -67,6 +115,35 @@
         null,
         null
       ],
+      "/Users/niketjain/Desktop/newprojects/LandSurveyor/spec/Survey/operation_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        2,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/niketjain/Desktop/newprojects/LandSurveyor/spec/Survey/parser_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/niketjain/Desktop/newprojects/LandSurveyor/spec/Survey/robot_spec.rb": [
         1,
         null,
@@ -84,6 +161,6 @@
         null
       ]
     },
-    "timestamp": 1423115537
+    "timestamp": 1423119086
   }
 }
