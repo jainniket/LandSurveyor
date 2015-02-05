@@ -8,7 +8,7 @@ describe "robot" do
 		expect([robot1.xcord, robot1.ycord, robot1.dir]).to eq([0, 0, "NORTH"])
 	end
 
-	it "performs operation"
-		expect("LEFT MOVE LEFT MOVE LEFT MOVE LEFT MOVE MOVE").to eq(3, 3, "EAST")
+	#it "performs operation"
+	#	expect("LEFT MOVE LEFT MOVE LEFT MOVE LEFT MOVE MOVE").to eq(3, 3, "EAST")
 
 end
