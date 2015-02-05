@@ -1,0 +1,26 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey.rb": [
+        1
+      ],
+      "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey/land.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1423113005
+  }
+}
