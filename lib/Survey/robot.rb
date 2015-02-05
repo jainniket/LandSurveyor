@@ -16,7 +16,8 @@ class Robot
 	def perform_operation(command)
 
 		inst = command.split(" ")
-		inst.each { |a| Operation.new(a)}
+		
+
 
 	end
 
