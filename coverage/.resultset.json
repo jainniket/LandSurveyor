@@ -2,6 +2,7 @@
   "RSpec": {
     "coverage": {
       "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey.rb": [
+        1,
         1
       ],
       "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey/land.rb": [
@@ -19,8 +20,38 @@
         null,
         null,
         null
+      ],
+      "/Users/niketjain/Desktop/newprojects/LandSurveyor/lib/Survey/robot.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/niketjain/Desktop/newprojects/LandSurveyor/spec/Survey/robot_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1423113005
+    "timestamp": 1423113473
   }
 }
