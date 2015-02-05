@@ -2,21 +2,16 @@
 
 class Land
 
-	def initialize(cord)
+	def initialize(coord)
 
-		@xcord = coordinate[0]
-		@ycord = coordinate[1]
+		coordinate = coord.split(" ")
+		@xcord = coordinate[0].to_i
+		@ycord = coordinate[1].to_i
 
 	end
 
 	def land_size
 		return [@xcord, @ycord]
-	end
-
-	def create_robot(xcord, ycord, direction)
-
-		robot = Robot.new(xcord, ycord, direction)
-		return [robot.xcord, robot.ycord, robot.dir]
 	end
 
 end

@@ -7,18 +7,15 @@ class Dispatcher
 		print "Space Delimiter"
 		input = gets.chomp
 
-		land1 = Land.new(input.split(" "))
+		land1 = Land.new(input)
 
 		while input != 'exit' do 	
 			possition = gets.chomp
-			@robot = Robot.new(possition.split(" "))
+			robot = Robot.new(possition.split(" "))
+			instructions = gets.chomp
+			robot.perform_operation(inst)
 		end
 
-	end
-
-	def start_test
-		input = Kernel.gets.chomp
-		@opr.parse(input)
 	end
 
 end

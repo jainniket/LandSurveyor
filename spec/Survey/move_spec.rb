@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe "parser" do
+describe "move" do
 
-it "performs parsing" do
+it "performs move" do
 
-		parser1 = Parser.new()
+		move = move.new()
 		expect(parser1.parse("MOVE MOVE RIGHT MOVE MOVE RIGHT MOVE RIGHT RIGHT MOVE")).to eq(["MOVE", "MOVE", "RIGHT", "MOVE", "MOVE", "RIGHT", "MOVE", "RIGHT", "RIGHT", "MOVE"])
 	end
 

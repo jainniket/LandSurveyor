@@ -6,13 +6,14 @@ class Operation
 		@command = command
 	end
 
-	def self.perform_operation
-		if(@command == "MOVE")
-			Move.new
-		elsif(@command == "LEFT")
-			Left.new
-		else
-			Right.new
+	def perform_operation
+			if(@command == "MOVE")
+				Move.new
+			elsif(@command == "LEFT")
+				Left.new
+			else
+				Right.new
+				return true
 		end
 	end
 end

@@ -8,7 +8,7 @@ describe "operation" do
 
 	it "performs the particular operation" do
 
-		expect(Operation.new).to eq()
+		expect(operation1.perform_operation).to eq(true)
 	end
 
 end
